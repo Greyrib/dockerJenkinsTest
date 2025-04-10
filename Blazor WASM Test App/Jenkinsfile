@@ -1,0 +1,39 @@
+pipeline {
+  agent any
+
+  environment {
+    IMAGE_NAME = "yourregistry/blazor-app:${env.BUILD_NUMBER}"
+    DOCKER_REGISTRY_CREDENTIALS_ID = "docker-creds-id"
+  }
+
+  stages {
+    stage('Checkout') {
+      steps {
+        checkout scm
+      }
+    }
+
+    stage('Build Docker Image') {
+      steps {
+        sh "docker build -t $IMAGE_NAME ."
+      }
+    }
+
+    stage('Push Docker Image') {
+      steps {
+        withCredentials([usernamePassword(credentialsId: "${DOCKER_REGISTRY_CREDENTIALS_ID}", usernameVariable: 'USER', passwordVariable: 'PASS')]) {
+          sh """
+            echo $PASS | docker login -u $USER --password-stdin yourregistry
+            docker push $IMAGE_NAME
+          """
+        }
+      }
+    }
+
+    stage('Deploy') {
+      steps {
+        sh './deploy.sh' // Customize: can be kubectl apply, helm, etc.
+      }
+    }
+  }
+}
