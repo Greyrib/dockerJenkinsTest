@@ -15,6 +15,7 @@ pipeline {
           branches: [[name: '***/main**']], // **Changed from '*/master' to '*/main' here**
           userRemoteConfigs: [[url: 'https://github.com/Greyrib/dockerJenkinsTest.git']] // **Ensure this URL is correct for your repo**
         ])
+        extensions: [[$class: 'CleanBeforeCheckout']] // Ensure a clean fetch
       }
     }
 
