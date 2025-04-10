@@ -38,8 +38,7 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-10T11:23:17.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T11:23:17.685Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Jenkinsfile",
               "ToolTip": "C:\\Archive v2\\Study\\Git\\4. Semester\\dockerJenkinsTest\\Blazor WASM Test App\\Jenkinsfile",
               "RelativeToolTip": "Jenkinsfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-10T11:24:25.082Z",
               "EditorCaption": ""
