@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Archive v2\\Study\\Git\\4. Semester\\dockerJenkinsTest\\Blazor WASM Test App\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C01AC6A-B74E-4D23-899A-A628462C75A5}|Blazor WASM Test App.csproj|c:\\archive v2\\study\\git\\4. semester\\dockerjenkinstest\\blazor wasm test app\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9C01AC6A-B74E-4D23-899A-A628462C75A5}|Blazor WASM Test App.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C01AC6A-B74E-4D23-899A-A628462C75A5}|Blazor WASM Test App.csproj|c:\\archive v2\\study\\git\\4. semester\\dockerjenkinstest\\blazor wasm test app\\jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9C01AC6A-B74E-4D23-899A-A628462C75A5}|Blazor WASM Test App.csproj|solutionrelative:jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Archive v2\\Study\\Git\\4. Semester\\dockerJenkinsTest\\Blazor WASM Test App\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Archive v2\\Study\\Git\\4. Semester\\dockerJenkinsTest\\Blazor WASM Test App\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T11:23:17.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Jenkinsfile",
+              "DocumentMoniker": "C:\\Archive v2\\Study\\Git\\4. Semester\\dockerJenkinsTest\\Blazor WASM Test App\\Jenkinsfile",
+              "RelativeDocumentMoniker": "Jenkinsfile",
+              "ToolTip": "C:\\Archive v2\\Study\\Git\\4. Semester\\dockerJenkinsTest\\Blazor WASM Test App\\Jenkinsfile",
+              "RelativeToolTip": "Jenkinsfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T11:24:25.082Z",
+              "EditorCaption": ""
             }
           ]
         }

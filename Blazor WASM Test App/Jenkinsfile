@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = "yourregistry/blazor-app:${env.BUILD_NUMBER}"
-    DOCKER_REGISTRY_CREDENTIALS_ID = "docker-creds-id"
+    IMAGE_NAME = "https://github.com/Greyrib/dockerJenkinsTest/blazor-app:${env.BUILD_NUMBER}"
+    DOCKER_REGISTRY_CREDENTIALS_ID = "GreyGitPAT"
   }
 
   stages {
